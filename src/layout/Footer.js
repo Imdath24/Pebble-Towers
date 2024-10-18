@@ -88,7 +88,7 @@ const FollowIcon = () => (
   ),
   FooterBottom = () => (
     <Fragment>
-      <li>
+      {/* <li>
         <Link href="/faqs">Faqs</Link>
       </li>
       <li>
@@ -99,26 +99,26 @@ const FollowIcon = () => (
       </li>
       <li>
         <Link href="/contact">Payments</Link>
-      </li>
+      </li> */}
     </Fragment>
   ),
   CopyRight = () => (
     <p>
-      © {new Date().getFullYear()}. <Link href="/">Wellern</Link> All rights
-      reserved.
+      Copyright © {new Date().getFullYear()}{" "}
+      <Link href="/">Someshwara Software Pvt Ltd</Link>
     </p>
   ),
   DefaultFooter = ({ scrollTop }) => (
     <footer className="main-footer bg-blue">
       <div className="container">
-        <Newsletters />
+        {/* <Newsletters /> */}
         <div className="row justify-content-between text-white pt-75">
-          <div className="col-lg-3 col-sm-4">
+          <div className="col-sm-6">
             <div className="footer-widget about-widget">
               <h5 className="footer-title">About Us</h5>
               <p>
-                Sit amet consectetur adipiscin seeiusmod tempor incididunt ut
-                dolore magna aliqu asusp disse ultrices gravida commodo
+                The best-in-class industrial orientation training academy in
+                India​
               </p>
               <h5 className="pt-5">Follow Us</h5>
               <div className="social-style-one">
@@ -126,48 +126,51 @@ const FollowIcon = () => (
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-3 col-sm-4">
+          {/* <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="footer-widget menu-widget">
               <h5 className="footer-title">Courses</h5>
               <ul>
                 <Courses />
               </ul>
             </div>
-          </div>
-          <div className="col-lg-2 col-md-3 col-sm-4">
+          </div> */}
+          {/* <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="footer-widget menu-widget">
               <h5 className="footer-title">Resources</h5>
               <ul>
                 <Resources />
               </ul>
             </div>
-          </div>
-          <div className="col-lg-5">
+          </div> */}
+          <div className="col-sm-6">
             <div className="row">
-              <div className="col-sm-6">
+              <div className="col-sm-12">
                 <div className="footer-widget contact-info-widget">
                   <h5 className="footer-title">Get In Touch</h5>
                   <ul>
                     <li>
-                      <i className="fas fa-map-marker-alt" /> 55 Main Street,
-                      2nd Block, New York
+                      <i className="fas fa-map-marker-alt" /> Someshwara
+                      Software Pvt Ltd 661, 80 Feet Road, 2nd Main, 7th Block,
+                      Banashankari 3rd stg, Bengaluru - 560085 Karnataka, India
                     </li>
                     <li>
                       <i className="far fa-envelope" />{" "}
-                      <a href="mailto:support@gmail.com">support@gmail.com</a>
+                      <a href="mailto:hello@someshwara.com">
+                        hello@someshwara.com
+                      </a>
                     </li>
                     <li>
                       <i className="fas fa-phone" />{" "}
-                      <a href="callto:+0123456789">+012 (345) 67 89</a>
+                      <a href="callto:+919606084646">+91 96060 84646</a>
                     </li>
-                    <li>
+                    {/* <li>
                       <i className="far fa-clock" /> Sunday - Friday,
                       <br /> 08 am - 05 pm
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
-              <div className="col-sm-6">
+              {/* <div className="col-sm-6">
                 <div className="footer-widget video-widget">
                   <p>Quis autem vel eum iure repre enderit voluptate</p>
                   <div className="video-widget overlay my-20">
@@ -185,7 +188,7 @@ const FollowIcon = () => (
                     </a>
                   </Link>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
@@ -203,7 +206,7 @@ const FollowIcon = () => (
         <button
           className="scroll-top scroll-to-target"
           data-target="html"
-          style={{ display: "inline-block" }}
+          style={{ display: "inline-block", backgroundColor: "#7C52B6" }}
           onClick={() => scrollTop()}
         >
           <span className="fas fa-angle-double-up" />
@@ -421,7 +424,7 @@ const FollowIcon = () => (
   Footer4 = ({ scrollTop }) => (
     <footer className="main-footer footer-two bg-blue-two text-white">
       <div className="container">
-        <div className="logo-inner style-two pt-85 pb-35">
+        {/* <div className="logo-inner style-two pt-85 pb-35">
           <div className="logo-item">
             <Link href="/about">
               <img
@@ -470,58 +473,63 @@ const FollowIcon = () => (
               />
             </Link>
           </div>
-        </div>
+        </div> */}
         <div className="row large-gap justify-content-between pt-85">
-          <div className="col-lg-3 col-sm-4">
+          <div className="col-lg-6 col-sm-6">
             <div className="footer-widget about-widget">
               <div className="footer-logo mb-25">
                 <Link href="/">
                   <a>
-                    <img src="assets/images/logos/logo-four.png" alt="Logo" />
+                    <img
+                      src="assets/images/logos/pebbleTowersWhite.svg"
+                      alt="Logo"
+                      height={60}
+                    />
                   </a>
                 </Link>
               </div>
               <p>
-                Sit amet consectetur adipiscin seeiusmod tempor incididunt ut
-                dolore magna aliqu asusp{" "}
+                The best-in-class industrial orientation training academy in
+                India​
               </p>
               <div className="social-style-one pt-10">
                 <FollowIcon />
               </div>
             </div>
           </div>
-          <div className="col-lg-2 col-md-3 col-sm-4">
+          {/* <div className="col-lg-2 col-md-3 col-sm-4">
             <div className="footer-widget menu-widget">
               <h5 className="footer-title">Courses</h5>
               <ul>
                 <Courses />
               </ul>
             </div>
-          </div>
-          <div className="col-md-3 col-sm-4">
+          </div> */}
+          <div className="col-md-6 col-sm-6">
             <div className="footer-widget contact-info-widget">
               <h5 className="footer-title">Get In Touch</h5>
               <ul>
                 <li>
-                  <i className="fas fa-map-marker-alt" /> 55 Main Street, 2nd
-                  Block, New York
+                  <i className="fas fa-map-marker-alt" /> Someshwara Software
+                  Pvt Ltd 661, 80 Feet Road, 2nd Main, 7th Block, Banashankari
+                  3rd stg, Bengaluru - 560085 Karnataka, India
                 </li>
                 <li>
                   <i className="far fa-envelope" />{" "}
-                  <a href="mailto:support@gmail.com">support@gmail.com</a>
+                  <a href="mailto:hello@someshwara.com">hello@someshwara.com</a>
                 </li>
                 <li>
                   <i className="fas fa-phone" />{" "}
-                  <a href="callto:+0123456789">+012 (345) 67 89</a>
+                  <a href="callto:+919606084646">+91 96060 84646</a>
                 </li>
-                <li>
+                {/* <li>
                   <i className="far fa-clock" /> Sunday - Friday,
                   <br /> 08 am - 05 pm
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
-          <div className="col-lg-3">
+          {/* <div className="col-lg-3">
             <div className="footer-widget gallery-widget">
               <h5 className="footer-title">Gallery</h5>
               <div className="gallery-widget-wrap">
@@ -563,21 +571,21 @@ const FollowIcon = () => (
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="copyright-area rel">
         <div className="container">
           <div className="copyright-inner">
             <CopyRight />
-            <ul className="footer-menu">
+            {/* <ul className="footer-menu">
               <FooterBottom />
-            </ul>
+            </ul> */}
           </div>
         </div>
         {/* Scroll Top Button */}
         <button
-          style={{ display: "inline-block" }}
+          style={{ display: "inline-block", backgroundColor: "#7C52B6" }}
           onClick={() => scrollTop()}
           className="scroll-top scroll-to-target"
           data-target="html"

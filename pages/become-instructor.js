@@ -172,7 +172,7 @@ const BecomeAnInstructor = () => {
                   >
                     <Counter end={9862} />
                   </span>
-                  <span>Experts Advisors</span>
+                  <span>Expert Advisors</span>
                 </div>
               </div>
             </div>

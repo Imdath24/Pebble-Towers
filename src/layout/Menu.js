@@ -1,5 +1,5 @@
-import Link from 'next/link'
-import { Fragment } from 'react'
+import Link from "next/link";
+import { Fragment } from "react";
 
 export const Home = () => (
   <Fragment>
@@ -13,73 +13,73 @@ export const Home = () => (
       <Link href='/index3'>Home Three</Link>
     </li> */}
     <li>
-      <Link href='/'>Home Four</Link>
+      <Link href="/">Home Four</Link>
     </li>
   </Fragment>
-)
+);
 
 export const Courses = () => (
   <Fragment>
-    <li>
+    {/* <li>
       <Link href='/course-grid'>course grid</Link>
     </li>
     <li>
       <Link href='/course-list'>course list</Link>
-    </li>
+    </li> */}
     <li>
-      <Link href='/course-timeline'>course timeline</Link>
+      <Link href="/course-timeline">course timeline</Link>
     </li>
-    <li>
+    {/* <li>
       <Link href='/course-details'>course details</Link>
-    </li>
+    </li> */}
   </Fragment>
-)
+);
 
 export const Pages = () => (
   <Fragment>
     <li>
-      <Link href='/faqs'>{`FAQ's`}</Link>
+      <Link href="/faqs">{`FAQ's`}</Link>
     </li>
     <li>
-      <Link href='/shop'>Shop Page</Link>
+      <Link href="/shop">Shop Page</Link>
     </li>
     <li>
-      <Link href='/product-details'>product details</Link>
+      <Link href="/product-details">product details</Link>
     </li>
     <li>
-      <Link href='/checkout'>checkout</Link>
+      <Link href="/checkout">checkout</Link>
     </li>
     <li>
-      <Link href='/cart'>cart page</Link>
+      <Link href="/cart">cart page</Link>
     </li>
     <li>
-      <Link href='/instructors'>all instructors</Link>
+      <Link href="/instructors">all instructors</Link>
     </li>
     <li>
-      <Link href='/become-instructor'>become instructor</Link>
+      <Link href="/become-instructor">become instructor</Link>
     </li>
     <li>
-      <Link href='/gallery'>gallery</Link>
+      <Link href="/gallery">gallery</Link>
     </li>
     <li>
-      <Link href='/pricing'>pricing plan</Link>
+      <Link href="/pricing">pricing plan</Link>
     </li>
     <li>
-      <Link href='/contact'>contact us</Link>
+      <Link href="/contact">contact us</Link>
     </li>
     <li>
-      <Link href='/404'>error Page</Link>
+      <Link href="/404">error Page</Link>
     </li>
   </Fragment>
-)
+);
 
 export const Blog = () => (
   <Fragment>
     <li>
-      <Link href='/blog'>Blog Page</Link>
+      <Link href="/blog">Blog Page</Link>
     </li>
     <li>
-      <Link href='/blog-details'>Blog Details</Link>
+      <Link href="/blog-details">Blog Details</Link>
     </li>
   </Fragment>
-)
+);

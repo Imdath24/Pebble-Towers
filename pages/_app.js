@@ -13,13 +13,11 @@ function MyApp({ Component, pageProps }) {
   return (
     <Fragment>
       <Head>
-        <title>
-          Wellearn - Education &amp; LMS React NextJS Template || Home
-        </title>
+        <title>Pebble Towers</title>
         {/*====== Favicon Icon ======*/}
         <link
           rel="shortcut icon"
-          href="assets/images/favicon.png"
+          href="assets/images/logos/pebble.svg"
           type="image/x-icon"
         />
         {/*====== Google Fonts ======*/}

@@ -5,13 +5,13 @@ import Pagination from "../src/Pagination";
 const CourseTimeline = () => {
   return (
     <Layout>
-      <PageBanner pageName={"Course Right Sidebar"} />
+      <PageBanner pageName={"Courses"} />
       <section className="course-right-area py-130 rpt-95 rpb-100">
         <div className="container">
           <div className="row large-gap">
-            <div className="col-lg-8">
+            <div className="col-sm-12">
               <div className="course-timeline">
-                <div className="shop-shorter mb-40 wow fadeInUp delay-0-2s">
+                {/* <div className="shop-shorter mb-40 wow fadeInUp delay-0-2s">
                   <div className="sort-text">
                     Showing <b>85</b> Courses For 505 Course
                   </div>
@@ -38,9 +38,12 @@ const CourseTimeline = () => {
                       <option value="low-to-high">Low To High</option>
                     </select>
                   </div>
-                </div>
+                </div> */}
                 <div className="course-timeline-wrap">
-                  <div className="coach-item coach-timeline wow fadeInUp delay-0-4s">
+                  <div
+                    className="coach-item coach-timeline wow fadeInUp delay-0-4s"
+                    style={{ width: "100%" }}
+                  >
                     <div className="coach-image">
                       <Link href="/course-list">
                         <a className="category">Lifestyle</a>
@@ -114,7 +117,7 @@ const CourseTimeline = () => {
                       </ul>
                     </div>
                   </div>
-                  <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
+                  {/* <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
                     <div className="coach-image">
                       <Link href="/course-list">
                         <a className="category">Technology</a>
@@ -150,8 +153,8 @@ const CourseTimeline = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
-                  <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
+                  </div> */}
+                  {/* <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
                     <div className="coach-image">
                       <Link href="/course-list">
                         <a className="category">Photography</a>
@@ -187,8 +190,8 @@ const CourseTimeline = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
-                  <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
+                  </div> */}
+                  {/* <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
                     <div className="coach-image">
                       <Link href="/course-list">
                         <a className="category">Development</a>
@@ -224,8 +227,8 @@ const CourseTimeline = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
-                  <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
+                  </div> */}
+                  {/* <div className="coach-item coach-timeline wow fadeInUp delay-0-2s">
                     <div className="coach-image">
                       <Link href="/course-list">
                         <a className="category">Marketing</a>
@@ -261,14 +264,14 @@ const CourseTimeline = () => {
                         </li>
                       </ul>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
-                <ul className="pagination flex-wrap mt-40">
+                {/* <ul className="pagination flex-wrap mt-40">
                   <Pagination paginationCls={".coach-item"} sort={3} />
-                </ul>
+                </ul> */}
               </div>
             </div>
-            <div className="col-lg-4">
+            {/* <div className="col-lg-4">
               <div className="course-sidebar rmt-75">
                 <div className="widget widget-search wow fadeInUp delay-0-2s">
                   <form onSubmit={(e) => e.preventDefault()} action="#">
@@ -519,7 +522,7 @@ const CourseTimeline = () => {
                   </ul>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
